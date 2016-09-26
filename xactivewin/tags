@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CFLAGS	Makefile	/^CFLAGS	= -g -O2 -Wall -fPIC -fpermissive -std=c++11 $/;"	m
+CPPPATH	Makefile	/^CPPPATH	=$/;"	m
+CXX	Makefile	/^CXX		= g++$/;"	m
+DEBUG	main.cpp	17;"	d	file:
+LIBPATH	Makefile	/^LIBPATH	=$/;"	m
+LIBS	Makefile	/^LIBS	= -lX11 $/;"	m
+atom_active_win	main.cpp	/^static Atom atom_active_win = None;$/;"	v	file:
+atom_wm_pid	main.cpp	/^static Atom atom_wm_pid = None;$/;"	v	file:
+check_and_set_mod	main.cpp	/^static void check_and_set_mod()$/;"	f	file:
+cleanup	main.cpp	/^static void cleanup()$/;"	f	file:
+current_mod	main.cpp	/^static unsigned int current_mod = 0;$/;"	v	file:
+display	main.cpp	/^static Display *display = NULL;$/;"	v	file:
+doEvent	main.cpp	/^static void doEvent()$/;"	f	file:
+do_grab	main.cpp	/^static void do_grab()$/;"	f	file:
+do_sendkey	main.cpp	/^static void do_sendkey(Window win, KeySym key, unsigned int mod)$/;"	f	file:
+do_ungrab	main.cpp	/^static void do_ungrab()$/;"	f	file:
+getActiveWindow	main.cpp	/^static void getActiveWindow(Window *window_ret)$/;"	f	file:
+getPidName	main.cpp	/^static std::string getPidName(int pid)$/;"	f	file:
+getWindowPid	main.cpp	/^static void getWindowPid(Window wid, int* pid_ret)$/;"	f	file:
+getWindowProperty	main.cpp	/^unsigned char* getWindowProperty(Window window, Atom atom, long *nitems,$/;"	f
+grabName	main.cpp	/^static const std::string grabName = "OVDNativeClient.jar";$/;"	v	file:
+isGrabPid	main.cpp	/^static bool isGrabPid(Window active_wid)$/;"	f	file:
+main	main.cpp	/^int main(int argc, char* argv[])$/;"	f
+root	main.cpp	/^static Window root = -1;$/;"	v	file:
+switch_im_config	main.cpp	/^static void switch_im_config(int on)$/;"	f	file:
